@@ -273,7 +273,7 @@ export default function Portfolio() {
             <div className="mt-12 grid md:grid-cols-3 gap-6">
               {[
                 { title: 'Frontend', skills: ['React', 'Next.js', 'TypeScript', 'Tailwind CSS', 'Vue.js'], color: 'from-blue-500 to-cyan-500' },
-                { title: 'Backend', skills: ['Node.js', 'Express', 'Python', 'PostgreSQL', 'MongoDB'], color: 'from-green-500 to-teal-500' },
+                { title: 'Backend', skills: ['Node.js', 'Express', 'Python', 'MySQL', 'MongoDB'], color: 'from-green-500 to-teal-500' },
                 { title: 'DevOps', skills: ['AWS', 'Docker', 'Kubernetes', 'CI/CD', 'Git'], color: 'from-purple-500 to-pink-500' }
               ].map((category, index) => (
                 <ScrollAnimation key={category.title} direction="scale" delay={index * 0.2}>
